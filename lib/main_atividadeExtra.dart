@@ -34,28 +34,26 @@ class _ContarCurtidas extends State<MyApp> {
               ),
 
               SizedBox(height: 20),
-
-
+              
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-              ElevatedButton(onPressed: () { setState(() { contador++;});},
-                child: Text("Curtir👍"),
+              ElevatedButton(onPressed: () { setState(() { contador++;});
+                },
+                child: Text("Curtir👍")
               ),
-
               SizedBox(width: 20),
-
               ElevatedButton(onPressed: () { setState(() { if (contador > 0) {contador--;} });
                 },
-                child: Text("Descurtir👎"),
-              ),
-                ], //children row
-              )
-            ], //children
+                child: Text("Descurtir👎")
+                  ),
+                ],
+              )     
+            ],
           ),
         ),
       ),
     );
-  }//widget
-}//class
+  }
+}
 
