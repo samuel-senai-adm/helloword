@@ -11,8 +11,14 @@ class MyApp extends StatelessWidget {
     Widget build(BuildContext context) {
       return MaterialApp(
         home: Scaffold(
-          appBar: AppBar(title: const Text("Imagem SENAI")),
-          body: Center(child: Image.asset('assets/images/fundo.jpeg'),)
+          body: Container(
+            decoration: const BoxDecoration(
+              image: DecorationImage(
+                image: AssetImage("assets/images/fundo.jpeg"),
+                fit: BoxFit.fitHeight,
+              ),
+            ),
+          ),
         ),
     );
   }  // Widget
