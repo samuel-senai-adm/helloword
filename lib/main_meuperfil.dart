@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      Icon(Icons.person, size: 80, color: Colors.white),
+                      Icon(Icons.person, size: 80, color: const Color.fromARGB(255, 255, 255, 255)),
                       SizedBox(height: 20),
                       Text(
                         "Samuel Angelo",
@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.email, size: 16, color: Colors.white70),
+                          Icon(Icons.email, size: 22, color: Colors.white),
                           const SizedBox(width: 4),
                           Text(
                             "samuel@email.com",
@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.phone, size: 16, color: Colors.white70),
+                          Icon(Icons.phone, size: 22, color: Colors.white),
                           const SizedBox(width: 4),
                           Text(
                             "(19) 99999-9999",
@@ -83,8 +83,8 @@ class MyApp extends StatelessWidget {
                         children: [
                           Icon(
                             Icons.location_pin,
-                            size: 16,
-                            color: Colors.white70,
+                            size: 22,
+                            color: Colors.white,
                           ),
                           const SizedBox(width: 4),
                           Text(
