@@ -30,7 +30,7 @@ class CarteiraDigital extends StatelessWidget {
         children: [
           CartaoBanco(
             corCartao: const Color.fromARGB(255, 89, 84, 98),
-            banco: "Banco SESI",
+            banco: "Banco Bradesco",
             numero: "1234 5678 9012 3456",
             nome: "Leonardo Casellato",
             validade: "12/30",
